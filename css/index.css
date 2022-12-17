@@ -1,6 +1,4 @@
 :root{
-    --font-1:'open sans';
-    --font-2:sans-serif;
     --text-color-l:#eee;
     --bg-color-d:#111;
     --bg-color-l:#333;
@@ -27,7 +25,7 @@ button{
     padding:1rem ;
     margin-top:1rem ;
     text-transform: capitalize;
-    font-family: var(--font-1);
+    font-family: 'open sans';
     font-weight:400;
     transition: color , background-color .3s;
 }
@@ -53,4 +51,9 @@ img{
     width: 100%;
     border-radius: 1rem 1rem  0 0;
     height: 500px;
+}
+h1{
+    font-family: Rubik , sans-serif;
+    text-transform: capitalize;
+    border-bottom: 2px solid orange;
 }
