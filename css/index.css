@@ -1,10 +1,20 @@
+:root{
+    --font-1:'open sans';
+    --font-2:sans-serif;
+    --text-color-l:#eee;
+    --bg-color-d:#111;
+    --bg-color-l:#333;
+
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(360deg,#111,#333);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(360deg,var(--bg-color-d),var(--bg-color-l));
     display: flex;
     flex-direction:column ;
     align-items: center;
@@ -15,5 +25,11 @@ button{
     right: 1rem;
     padding:1rem ;
     margin-top:1rem ;
-    font-family: var(--font-1); 
+    font-family: var(--font-1);
+    font-weight:400;
+}
+button:hover{
+    color: var(--text-color-l);
+    background-color: var(--bg-color-l);
+    border:1px solid var(--text-color-l) ;
 }
