@@ -54,6 +54,7 @@ img{
 }
 h1{
     font-family: Rubik , sans-serif;
-    text-transform: capitalize;
+    font-weight:400 ;
+    text-transform:uppercase;
     border-bottom: 2px solid orange;
 }
