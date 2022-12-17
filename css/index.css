@@ -58,3 +58,7 @@ h1{
     text-transform:uppercase;
     border-bottom: 2px solid orange;
 }
+p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+}
