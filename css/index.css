@@ -4,7 +4,8 @@
     --text-color-l:#eee;
     --bg-color-d:#111;
     --bg-color-l:#333;
-
+    --div-color-d:#bdc3c7;
+    --div-color-l:#ecf0f1;
 }
 *{
     padding: 0;
@@ -25,11 +26,24 @@ button{
     right: 1rem;
     padding:1rem ;
     margin-top:1rem ;
+    text-transform: capitalize;
     font-family: var(--font-1);
     font-weight:400;
+    transition: color , background-color .3s;
 }
 button:hover{
     color: var(--text-color-l);
     background-color: var(--bg-color-l);
     border:1px solid var(--text-color-l) ;
+}
+div{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background: radial-gradient(ellipse farthest-corner at center,var(--div-color-d),var(--div-color-l));
 }
